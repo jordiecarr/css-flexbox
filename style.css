@@ -1,7 +1,7 @@
 *{
     margin: 0;
     padding: 0;
-    font-family: "Ubuntu", sans-serif;
+    font-family: sans-serif;
 }
 
 body{
@@ -19,14 +19,14 @@ body{
     overflow: hidden;
 }
 .card-header{
-    background: rgb(195, 195, 195);
+    background: rgb(255, 255, 255);
     padding: 60px 40px;
 }
 
 .pic{
     display: inline-block;
     padding: 8px;
-    background: linear-gradient(130deg, rgb(2, 78, 72), rgb(0, 247, 255));
+    background: linear-gradient(130deg, rgb(3, 180, 3), rgb(205, 245, 205));
     margin:auto;
     border-radius: 50%; 
     animation: animated-gradient 2s linear infinite;
@@ -49,7 +49,8 @@ margin: 10px 0;
 }
 .desc {
     font-size:18px;
-    color: rgb(15, 4, 0)
+    color: rgb(15, 4, 0);
+    background: white
 }
 .sm {
     display: flex;
@@ -57,11 +58,12 @@ margin: 10px 0;
     margin:20px 0;
 }
 
-.sm a{
-    color: white;
+.sm i{
+    color: gold;
     width: 56px;
     font-size: 22px;
     transition: .3s linear;
+    background: white
 }
 .sm a:hover{
     color: rgb(0, 255, 238);
@@ -81,8 +83,8 @@ margin: 10px 0;
     color: white;
 }
 .card-footer{
-    background: rgb(15, 189, 166);
-    padding: 60px 10px;
+    background: rgb(1, 204, 39);
+    padding: 15px 10px;
 }
 .numbers{
     display: flex;
@@ -90,10 +92,9 @@ margin: 10px 0;
 }
 
 .item{
-    flex: 1;
-    text-transform: uppercase;
-    font-size: 13px;
-    color:orangered
+    display: flex;
+    justify-content: center;
+    margin:20px 0;
 }
 
 .item span{
@@ -101,3 +102,20 @@ margin: 10px 0;
     color: darkgray;
     font-size: 30px;
 }
+.item i{
+    color: white;
+    width: 56px;
+    font-size: 22px;
+    transition: .3s linear;
+    text-align: center;
+}
+
+.price{
+    color: rgb(13, 2, 2);
+    font-size: 28px;
+    font-weight: 600;
+    margin: 10px 0;
+    }
+    .fa-phone::before {
+        text-align: top;
+    }
